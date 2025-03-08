@@ -1,0 +1,28 @@
+/* style.css */
+
+body {
+    background-color: #f4f4f4; /* Warna latar belakang yang nyaman untuk membaca */
+}
+
+.card {
+    transition: transform 0.3s; /* Efek transisi saat hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efek zoom saat hover pada kartu buku */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Tambahan untuk membuat navbar lebih menarik */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem; }
