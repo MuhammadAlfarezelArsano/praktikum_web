@@ -1,0 +1,23 @@
+body {
+    background-color: #1192b5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    border-radius: 1rem;
+    background-color: #25443f;
+  }
+  
+  #noteList li {
+    transition: background-color 0.3s ease;
+  }
+  
+  #noteList li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  #noteList li span {
+    flex-grow: 1;
+    font-size: 1.05rem;
+  }
+  
